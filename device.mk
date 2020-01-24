@@ -100,3 +100,8 @@ PRODUCT_PACKAGES += \
 # Bromite Webview
 PRODUCT_PACKAGES += \
     bromite-webview
+
+# Charging
+PRODUCT_PACKAGES += \
+    charger_res_images \
+    product_charger_res_images
