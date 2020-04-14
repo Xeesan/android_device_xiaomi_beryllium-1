@@ -92,3 +92,7 @@ PRODUCT_PACKAGES += \
 # Display
 PRODUCT_PACKAGES += \
     vendor.lineage.livedisplay@2.0-service-sdm
+
+#GCam Go
+PRODUCT_PACKAGES += \
+    GCam
