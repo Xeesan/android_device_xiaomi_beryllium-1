@@ -13,6 +13,9 @@ TARGET_GAPPS_ARCH := arm64
 TARGET_INCLUDE_WIFI_EXT := true
 TARGET_INCLUDE_STOCK_ARCORE := true
 
+# Inherit Gapps
+$(call inherit-product-if-exists, vendor/gapps/config.mk)
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := bliss_beryllium
 PRODUCT_DEVICE := beryllium
