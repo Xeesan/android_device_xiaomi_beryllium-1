@@ -50,3 +50,11 @@ TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 
 # Inherit from the proprietary version
 -include vendor/xiaomi/beryllium/BoardConfigVendor.mk
+
+# Override gapps
+TARGET_GAPPS_OVERRIDE += \
+    AudioFX \
+    Snap \
+    MusicFX \
+    Browser \
+    Music Eleven
