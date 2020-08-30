@@ -96,3 +96,7 @@ PRODUCT_PACKAGES += \
 #GCam Go
 PRODUCT_PACKAGES += \
     GCam
+
+# Bromite Webview
+PRODUCT_PACKAGES += \
+    bromite-webview

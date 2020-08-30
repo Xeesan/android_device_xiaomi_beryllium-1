@@ -16,6 +16,12 @@
     "repository": "Painkiller3/kernel_xiaomi_sdm845",
     "target_path": "kernel/xiaomi/sdm845",
     "branch": "ten"
+  },
+  {
+    "repository": "ktanay98/android_external_bromite-webview",
+    "target_path": "external/bromite-webview",
+    "revision": "master",
+    "remote": "github"
   }
 ]
 
