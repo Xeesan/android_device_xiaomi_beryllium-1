@@ -1,9 +1,9 @@
 [
   {
     "remote": "github",
-    "repository": "ktanay98/android_device_xiaomi_sdm845-common",
+    "repository": "BlissRoms-Devices/android_device_xiaomi_sdm845-common",
     "target_path": "device/xiaomi/sdm845-common",
-    "branch": "bliss_1"
+    "branch": "q"
   },
   {
     "remote": "github",
